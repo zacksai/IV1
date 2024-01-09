@@ -2,9 +2,13 @@
 
 
 
-## Playwright installation
+## Curl Command
+` curl -LJO https://github.com/microsoft/playwright/raw/main/utils/docker/Dockerfile.jammy`
 
-1. NPM/Yarn:
+| Tool | Meaning
+|:- | -:|
+| L | Follow redirect |
+| J | Save suggested name |
+| O | Save remote name |
 
-Requires:
-- Javascript
+Note: `J` Overrides `O`
